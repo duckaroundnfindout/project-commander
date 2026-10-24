@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'sha256-43wYPVC5dC9vJXhnX5HBBZzmHcUWGded/PIxr+/dP9A='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://scryfall.io https://*.scryfall.io https://scryfall.com https://*.scryfall.com; font-src 'self' data:; connect-src 'self' https: wss: blob: data: http://localhost:* http://127.0.0.1:*; worker-src 'self' blob:; media-src 'self' data: blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Project Commander — free Commander (EDH) in your browser</title>
+    <meta name="description" content="Play Magic: The Gathering Commander for free in your browser. Pick one of 199 official precons or import your deck, then play the built-in opponent or invite friends. No account, no download." />
+    <meta name="theme-color" content="#060607" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="Project Commander" />
+    <meta name="apple-mobile-web-app-title" content="Project Commander" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <!-- Social previews. Build with SITE_URL=https://your.site/path/ to make these absolute (most crawlers require it). -->
+    <link rel="canonical" href="https://duckaroundnfindout.github.io/project-commander/" />
+    <meta property="og:url" content="https://duckaroundnfindout.github.io/project-commander/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Project Commander" />
+    <meta property="og:title" content="Project Commander — free Commander in your browser" />
+    <meta property="og:description" content="199 official precons or your own deck. Play the built-in opponent or invite friends. No account, no download." />
+    <meta property="og:image" content="https://duckaroundnfindout.github.io/project-commander/social-preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Project Commander: free Commander (EDH) in your browser" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Project Commander — free Commander in your browser" />
+    <meta name="twitter:description" content="199 official precons or your own deck. Play the built-in opponent or invite friends. No account, no download." />
+    <meta name="twitter:image" content="https://duckaroundnfindout.github.io/project-commander/social-preview.jpg" />
+    <style>
+      /* Structural reset only — all component styling lives in src/styles/*.css */
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000000; color-scheme: dark; }
+      #app { position: fixed; inset: 0; }
+      #app canvas { display: block; }
+      * { box-sizing: border-box; }
+      /* First-load screen: paints before the app's scripts arrive; src/app/boot.ts removes it. */
+      #boot { position: fixed; inset: 0; z-index: 2147483000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; padding: 24px;
+        background: radial-gradient(ellipse at 50% 42%, #16161a 0%, #050506 52%, #000000 100%); color: #d6d6db; font: 14px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; text-align: center; transition: opacity .45s ease; }
+      #boot.boot-done { opacity: 0; pointer-events: none; }
+      #boot svg { width: 68px; height: 68px; filter: drop-shadow(0 0 26px #ffffff2e); animation: boot-breathe 2.4s ease-in-out infinite; }
+      @keyframes boot-breathe { 50% { transform: scale(1.05) rotate(-3deg); } }
+      .boot-mark { font: 500 28px/1 system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: -.01em; color: #f5f5f7; }
+      .boot-mark b { margin-left: .22em; font-weight: 700; color: #cfd6e1; }
+      .boot-bar { position: relative; width: min(220px, 60vw); height: 2px; overflow: hidden; border-radius: 2px; background: #ffffff1a; }
+      .boot-bar i { position: absolute; inset: 0 auto 0 0; width: 38%; border-radius: 3px; background: linear-gradient(90deg, transparent, #f5f5f7, transparent); animation: boot-slide 1.25s ease-in-out infinite; }
+      @keyframes boot-slide { from { transform: translateX(-100%); } to { transform: translateX(270%); } }
+      .boot-msg { margin: 0; min-height: 1.5em; color: #a3a3ad; font-size: 13px; }
+      .boot-msg button { margin-left: 8px; padding: 7px 16px; border-radius: 999px; border: 0; background: #f5f5f7; color: #050506; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+      .boot-msg button:focus-visible { outline: 2px solid #ffffffe6; outline-offset: 3px; }
+      @media (prefers-reduced-motion: reduce) { .boot-bar i { animation: none; width: 100%; opacity: .5; } #boot, #boot svg { transition: none; animation: none; } }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BdtXPDMm.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/table-NJte1-Xq.js">
+    <link rel="modulepreload" crossorigin href="./assets/multiplayer-DpNwwKaf.js">
+    <link rel="modulepreload" crossorigin href="./assets/card-cache-GVbTG4tF.js">
+    <link rel="modulepreload" crossorigin href="./assets/deck-catalog-XZSOq9x8.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-C8zLyoP_.css">
+  </head>
+  <body>
+    <div id="boot" role="status" aria-live="polite" aria-busy="true">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="9.2" y="4.6" width="13.6" height="22.8" rx="2.6" transform="rotate(-24 16 16)" fill="none" stroke="#cfd6e1" stroke-width="1.4"/><rect x="9.2" y="4.6" width="13.6" height="22.8" rx="2.6" transform="rotate(24 16 16)" fill="#ffffff14" stroke="#f5f5f7" stroke-width="1.4"/></svg>
+      <div class="boot-mark">Project<b>Commander</b></div>
+      <div class="boot-bar" aria-hidden="true"><i></i></div>
+      <p class="boot-msg" id="boot-msg">Shuffling up…</p>
+      <noscript><p class="boot-msg">Project Commander needs JavaScript to run. Please enable it and reload.</p></noscript>
+    </div>
+    <div id="app"></div>
+    <div id="ui"></div>
+    <script>
+      // If the app cannot start (an old browser, a failed download), say so instead of spinning forever.
+      (function () {
+        var msg = document.getElementById('boot-msg');
+        function fail(text) {
+          if (window.__cxBooted || !msg || !document.getElementById('boot')) return;
+          msg.textContent = text;
+          var b = document.createElement('button'); b.type = 'button'; b.textContent = 'Reload'; b.onclick = function () { location.reload(); };
+          msg.appendChild(b);
+        }
+        setTimeout(function () { fail('Still loading. A slow connection? '); }, 20000);
+        window.addEventListener('error', function (e) { if (e && e.target && e.target.tagName === 'SCRIPT') fail('Project Commander could not download. Check your connection. '); }, true);
+        window.addEventListener('error', function (e) { if (e && e.target === window && !window.__cxBooted) setTimeout(function () { fail('Project Commander could not start in this browser. '); }, 1500); });
+      })();
+    </script>
+  </body>
+</html>
