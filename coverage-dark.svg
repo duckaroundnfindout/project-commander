@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
 <title id="t">Rules automation coverage, 2026-10-27</title>
-<desc id="d">Line chart of fully automated rules coverage across 28 measurements. Latest: Precon deck slots 90.6%, Catalog cards 80.5%, Precon commanders 98.9%.</desc>
+<desc id="d">Line chart of fully automated rules coverage across 29 measurements. Latest: Precon deck slots 91.0%, Catalog cards 81.3%, Precon commanders 98.9%.</desc>
 <rect x="0.5" y="0.5" width="799" height="419" rx="12" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
 <text x="32" y="42" font-size="20" fill="#f0efec" font-weight="600">Rules automation coverage</text>
-<text x="32" y="64" font-size="13" fill="#c3c2b7">Share that runs with no manual steps · measured 2026-10-27 (T0.R59u)</text>
+<text x="32" y="64" font-size="13" fill="#c3c2b7">Share that runs with no manual steps · measured 2026-10-27 (T0.R59v)</text>
 <line x1="32" y1="95" x2="48" y2="95" stroke="#3987e5" stroke-width="3" stroke-linecap="round"/>
 <circle cx="40" cy="95" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
 <text x="56" y="100" font-size="13" fill="#c3c2b7">Precon deck slots</text>
-<text x="32" y="134" font-size="30" fill="#f0efec" font-weight="600">90.6%</text>
+<text x="32" y="134" font-size="30" fill="#f0efec" font-weight="600">91.0%</text>
 <text x="32" y="154" font-size="12" fill="#a3a29b">of 16,056 card slots in precons</text>
 <line x1="284" y1="95" x2="300" y2="95" stroke="#d95926" stroke-width="3" stroke-linecap="round"/>
 <circle cx="292" cy="95" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
 <text x="308" y="100" font-size="13" fill="#c3c2b7">Catalog cards</text>
-<text x="284" y="134" font-size="30" fill="#f0efec" font-weight="600">80.5%</text>
-<text x="284" y="154" font-size="12" fill="#a3a29b">5,196 of 6,455 nonbasic cards</text>
+<text x="284" y="134" font-size="30" fill="#f0efec" font-weight="600">81.3%</text>
+<text x="284" y="154" font-size="12" fill="#a3a29b">5,251 of 6,455 nonbasic cards</text>
 <line x1="536" y1="95" x2="552" y2="95" stroke="#199e70" stroke-width="3" stroke-linecap="round"/>
 <circle cx="544" cy="95" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"/>
 <text x="560" y="100" font-size="13" fill="#c3c2b7">Precon commanders</text>
@@ -31,106 +31,108 @@
 <line x1="64" y1="334" x2="704" y2="334" stroke="#383835" stroke-width="1"/>
 <text x="76" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R24</text>
 <text x="76" y="370" font-size="11" fill="#a3a29b" text-anchor="middle">Oct 18</text>
-<text x="144.4" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R38</text>
-<text x="212.9" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R49</text>
-<text x="281.3" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59b</text>
-<text x="349.8" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59e</text>
-<text x="418.2" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59h</text>
-<text x="486.7" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59k</text>
-<text x="555.1" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59n</text>
-<text x="555.1" y="370" font-size="11" fill="#a3a29b" text-anchor="middle">Oct 26</text>
-<text x="623.6" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59q</text>
-<text x="692" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59u</text>
-<text x="692" y="370" font-size="11" fill="#a3a29b" text-anchor="middle">Oct 27</text>
-<path d="M76 239.5 L98.8 234 L121.6 232.9 L144.4 231.8 L167.3 231.6 L190.1 230.5 L212.9 229.4 L235.7 226.3 L258.5 222.3 L281.3 220.9 L304.1 220.1 L327 219.2 L349.8 218.7 L372.6 217.9 L395.4 217 L418.2 215.9 L441 215 L463.9 214.1 L486.7 213.6 L509.5 212.8 L532.3 211.5 L555.1 210.8 L577.9 210.4 L600.7 209 L623.6 207 L646.4 206.3 L669.2 205.5 L692 205.2" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M76 275.1 L98.8 270.1 L121.6 268.8 L144.4 267.6 L167.3 267 L190.1 265.7 L212.9 263.9 L235.7 259.7 L258.5 253 L281.3 250.4 L304.1 249.7 L327 248.8 L349.8 248 L372.6 246.9 L395.4 245.5 L418.2 243.1 L441 241.5 L463.9 239.8 L486.7 239.1 L509.5 238 L532.3 235.6 L555.1 234.2 L577.9 233.6 L600.7 230.3 L623.6 227.1 L646.4 226 L669.2 224.7 L692 223.6" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M76 320.9 L98.8 298.6 L121.6 297.5 L144.4 295.5 L167.3 295.5 L190.1 290.4 L212.9 289.5 L235.7 287.3 L258.5 285.3 L281.3 271.2 L304.1 271.2 L327 271.2 L349.8 271.2 L372.6 269 L395.4 259.9 L418.2 259.9 L441 259.9 L463.9 236.7 L486.7 229.6 L509.5 219.4 L532.3 214.3 L555.1 204.2 L577.9 204.2 L600.7 201.1 L623.6 193.1 L646.4 192 L669.2 190 L692 190" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="142" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R38</text>
+<text x="208" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R49</text>
+<text x="274" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59b</text>
+<text x="340" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59e</text>
+<text x="406" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59h</text>
+<text x="472" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59k</text>
+<text x="538" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59n</text>
+<text x="538" y="370" font-size="11" fill="#a3a29b" text-anchor="middle">Oct 26</text>
+<text x="604" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59q</text>
+<text x="692" y="354" font-size="12" fill="#c3c2b7" text-anchor="middle">R59v</text>
+<path d="M76 239.5 L98 234 L120 232.9 L142 231.8 L164 231.6 L186 230.5 L208 229.4 L230 226.3 L252 222.3 L274 220.9 L296 220.1 L318 219.2 L340 218.7 L362 217.9 L384 217 L406 215.9 L428 215 L450 214.1 L472 213.6 L494 212.8 L516 211.5 L538 210.8 L560 210.4 L582 209 L604 207 L626 206.3 L648 205.5 L670 205.2 L692 204.4" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M76 275.1 L98 270.1 L120 268.8 L142 267.6 L164 267 L186 265.7 L208 263.9 L230 259.7 L252 253 L274 250.4 L296 249.7 L318 248.8 L340 248 L362 246.9 L384 245.5 L406 243.1 L428 241.5 L450 239.8 L472 239.1 L494 238 L516 235.6 L538 234.2 L560 233.6 L582 230.3 L604 227.1 L626 226 L648 224.7 L670 223.6 L692 222.1" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M76 320.9 L98 298.6 L120 297.5 L142 295.5 L164 295.5 L186 290.4 L208 289.5 L230 287.3 L252 285.3 L274 271.2 L296 271.2 L318 271.2 L340 271.2 L362 269 L384 259.9 L406 259.9 L428 259.9 L450 236.7 L472 229.6 L494 219.4 L516 214.3 L538 204.2 L560 204.2 L582 201.1 L604 193.1 L626 192 L648 190 L670 190 L692 190" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="76" cy="239.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R24 · 2026-10-18 — Precon deck slots: 71.8%</title></circle>
-<circle cx="98.8" cy="234" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Precon deck slots: 74.8%</title></circle>
-<circle cx="121.6" cy="232.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Precon deck slots: 75.4%</title></circle>
-<circle cx="144.4" cy="231.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Precon deck slots: 76.0%</title></circle>
-<circle cx="167.3" cy="231.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Precon deck slots: 76.1%</title></circle>
-<circle cx="190.1" cy="230.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Precon deck slots: 76.7%</title></circle>
-<circle cx="212.9" cy="229.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Precon deck slots: 77.3%</title></circle>
-<circle cx="235.7" cy="226.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Precon deck slots: 79.0%</title></circle>
-<circle cx="258.5" cy="222.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Precon deck slots: 81.2%</title></circle>
-<circle cx="281.3" cy="220.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Precon deck slots: 82.0%</title></circle>
-<circle cx="304.1" cy="220.1" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Precon deck slots: 82.4%</title></circle>
-<circle cx="327" cy="219.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Precon deck slots: 82.9%</title></circle>
-<circle cx="349.8" cy="218.7" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Precon deck slots: 83.2%</title></circle>
-<circle cx="372.6" cy="217.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Precon deck slots: 83.6%</title></circle>
-<circle cx="395.4" cy="217" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Precon deck slots: 84.1%</title></circle>
-<circle cx="418.2" cy="215.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Precon deck slots: 84.7%</title></circle>
-<circle cx="441" cy="215" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Precon deck slots: 85.2%</title></circle>
-<circle cx="463.9" cy="214.1" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Precon deck slots: 85.7%</title></circle>
-<circle cx="486.7" cy="213.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Precon deck slots: 86.0%</title></circle>
-<circle cx="509.5" cy="212.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Precon deck slots: 86.4%</title></circle>
-<circle cx="532.3" cy="211.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Precon deck slots: 87.1%</title></circle>
-<circle cx="555.1" cy="210.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Precon deck slots: 87.5%</title></circle>
-<circle cx="577.9" cy="210.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Precon deck slots: 87.7%</title></circle>
-<circle cx="600.7" cy="209" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Precon deck slots: 88.5%</title></circle>
-<circle cx="623.6" cy="207" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Precon deck slots: 89.6%</title></circle>
-<circle cx="646.4" cy="206.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Precon deck slots: 90.0%</title></circle>
-<circle cx="669.2" cy="205.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Precon deck slots: 90.4%</title></circle>
-<circle cx="692" cy="205.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Precon deck slots: 90.6%</title></circle>
+<circle cx="98" cy="234" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Precon deck slots: 74.8%</title></circle>
+<circle cx="120" cy="232.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Precon deck slots: 75.4%</title></circle>
+<circle cx="142" cy="231.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Precon deck slots: 76.0%</title></circle>
+<circle cx="164" cy="231.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Precon deck slots: 76.1%</title></circle>
+<circle cx="186" cy="230.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Precon deck slots: 76.7%</title></circle>
+<circle cx="208" cy="229.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Precon deck slots: 77.3%</title></circle>
+<circle cx="230" cy="226.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Precon deck slots: 79.0%</title></circle>
+<circle cx="252" cy="222.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Precon deck slots: 81.2%</title></circle>
+<circle cx="274" cy="220.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Precon deck slots: 82.0%</title></circle>
+<circle cx="296" cy="220.1" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Precon deck slots: 82.4%</title></circle>
+<circle cx="318" cy="219.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Precon deck slots: 82.9%</title></circle>
+<circle cx="340" cy="218.7" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Precon deck slots: 83.2%</title></circle>
+<circle cx="362" cy="217.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Precon deck slots: 83.6%</title></circle>
+<circle cx="384" cy="217" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Precon deck slots: 84.1%</title></circle>
+<circle cx="406" cy="215.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Precon deck slots: 84.7%</title></circle>
+<circle cx="428" cy="215" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Precon deck slots: 85.2%</title></circle>
+<circle cx="450" cy="214.1" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Precon deck slots: 85.7%</title></circle>
+<circle cx="472" cy="213.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Precon deck slots: 86.0%</title></circle>
+<circle cx="494" cy="212.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Precon deck slots: 86.4%</title></circle>
+<circle cx="516" cy="211.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Precon deck slots: 87.1%</title></circle>
+<circle cx="538" cy="210.8" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Precon deck slots: 87.5%</title></circle>
+<circle cx="560" cy="210.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Precon deck slots: 87.7%</title></circle>
+<circle cx="582" cy="209" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Precon deck slots: 88.5%</title></circle>
+<circle cx="604" cy="207" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Precon deck slots: 89.6%</title></circle>
+<circle cx="626" cy="206.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Precon deck slots: 90.0%</title></circle>
+<circle cx="648" cy="205.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Precon deck slots: 90.4%</title></circle>
+<circle cx="670" cy="205.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Precon deck slots: 90.6%</title></circle>
+<circle cx="692" cy="204.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>T0.R59v · 2026-10-27 — Precon deck slots: 91.0%</title></circle>
 <circle cx="76" cy="275.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R24 · 2026-10-18 — Catalog cards: 52.3%</title></circle>
-<circle cx="98.8" cy="270.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Catalog cards: 55.0%</title></circle>
-<circle cx="121.6" cy="268.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Catalog cards: 55.7%</title></circle>
-<circle cx="144.4" cy="267.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Catalog cards: 56.4%</title></circle>
-<circle cx="167.3" cy="267" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Catalog cards: 56.7%</title></circle>
-<circle cx="190.1" cy="265.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Catalog cards: 57.4%</title></circle>
-<circle cx="212.9" cy="263.9" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Catalog cards: 58.4%</title></circle>
-<circle cx="235.7" cy="259.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Catalog cards: 60.7%</title></circle>
-<circle cx="258.5" cy="253" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Catalog cards: 64.4%</title></circle>
-<circle cx="281.3" cy="250.4" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Catalog cards: 65.8%</title></circle>
-<circle cx="304.1" cy="249.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Catalog cards: 66.2%</title></circle>
-<circle cx="327" cy="248.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Catalog cards: 66.7%</title></circle>
-<circle cx="349.8" cy="248" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Catalog cards: 67.1%</title></circle>
-<circle cx="372.6" cy="246.9" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Catalog cards: 67.7%</title></circle>
-<circle cx="395.4" cy="245.5" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Catalog cards: 68.5%</title></circle>
-<circle cx="418.2" cy="243.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Catalog cards: 69.8%</title></circle>
-<circle cx="441" cy="241.5" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Catalog cards: 70.7%</title></circle>
-<circle cx="463.9" cy="239.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Catalog cards: 71.6%</title></circle>
-<circle cx="486.7" cy="239.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Catalog cards: 72.0%</title></circle>
-<circle cx="509.5" cy="238" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Catalog cards: 72.6%</title></circle>
-<circle cx="532.3" cy="235.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Catalog cards: 73.9%</title></circle>
-<circle cx="555.1" cy="234.2" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Catalog cards: 74.7%</title></circle>
-<circle cx="577.9" cy="233.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Catalog cards: 75.0%</title></circle>
-<circle cx="600.7" cy="230.3" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Catalog cards: 76.8%</title></circle>
-<circle cx="623.6" cy="227.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Catalog cards: 78.6%</title></circle>
-<circle cx="646.4" cy="226" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Catalog cards: 79.2%</title></circle>
-<circle cx="669.2" cy="224.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Catalog cards: 79.9%</title></circle>
-<circle cx="692" cy="223.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Catalog cards: 80.5%</title></circle>
+<circle cx="98" cy="270.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Catalog cards: 55.0%</title></circle>
+<circle cx="120" cy="268.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Catalog cards: 55.7%</title></circle>
+<circle cx="142" cy="267.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Catalog cards: 56.4%</title></circle>
+<circle cx="164" cy="267" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Catalog cards: 56.7%</title></circle>
+<circle cx="186" cy="265.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Catalog cards: 57.4%</title></circle>
+<circle cx="208" cy="263.9" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Catalog cards: 58.4%</title></circle>
+<circle cx="230" cy="259.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Catalog cards: 60.7%</title></circle>
+<circle cx="252" cy="253" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Catalog cards: 64.4%</title></circle>
+<circle cx="274" cy="250.4" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Catalog cards: 65.8%</title></circle>
+<circle cx="296" cy="249.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Catalog cards: 66.2%</title></circle>
+<circle cx="318" cy="248.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Catalog cards: 66.7%</title></circle>
+<circle cx="340" cy="248" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Catalog cards: 67.1%</title></circle>
+<circle cx="362" cy="246.9" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Catalog cards: 67.7%</title></circle>
+<circle cx="384" cy="245.5" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Catalog cards: 68.5%</title></circle>
+<circle cx="406" cy="243.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Catalog cards: 69.8%</title></circle>
+<circle cx="428" cy="241.5" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Catalog cards: 70.7%</title></circle>
+<circle cx="450" cy="239.8" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Catalog cards: 71.6%</title></circle>
+<circle cx="472" cy="239.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Catalog cards: 72.0%</title></circle>
+<circle cx="494" cy="238" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Catalog cards: 72.6%</title></circle>
+<circle cx="516" cy="235.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Catalog cards: 73.9%</title></circle>
+<circle cx="538" cy="234.2" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Catalog cards: 74.7%</title></circle>
+<circle cx="560" cy="233.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Catalog cards: 75.0%</title></circle>
+<circle cx="582" cy="230.3" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Catalog cards: 76.8%</title></circle>
+<circle cx="604" cy="227.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Catalog cards: 78.6%</title></circle>
+<circle cx="626" cy="226" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Catalog cards: 79.2%</title></circle>
+<circle cx="648" cy="224.7" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Catalog cards: 79.9%</title></circle>
+<circle cx="670" cy="223.6" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Catalog cards: 80.5%</title></circle>
+<circle cx="692" cy="222.1" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>T0.R59v · 2026-10-27 — Catalog cards: 81.3%</title></circle>
 <circle cx="76" cy="320.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R24 · 2026-10-18 — Precon commanders: 27.2% (49 of 180)</title></circle>
-<circle cx="98.8" cy="298.6" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Precon commanders: 39.4% (71 of 180)</title></circle>
-<circle cx="121.6" cy="297.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Precon commanders: 40.0% (72 of 180)</title></circle>
-<circle cx="144.4" cy="295.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Precon commanders: 41.1% (74 of 180)</title></circle>
-<circle cx="167.3" cy="295.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Precon commanders: 41.1% (74 of 180)</title></circle>
-<circle cx="190.1" cy="290.4" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Precon commanders: 43.9% (79 of 180)</title></circle>
-<circle cx="212.9" cy="289.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Precon commanders: 44.4% (80 of 180)</title></circle>
-<circle cx="235.7" cy="287.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Precon commanders: 45.6% (82 of 180)</title></circle>
-<circle cx="258.5" cy="285.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Precon commanders: 46.7% (84 of 180)</title></circle>
-<circle cx="281.3" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
-<circle cx="304.1" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
-<circle cx="327" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
-<circle cx="349.8" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
-<circle cx="372.6" cy="269" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Precon commanders: 55.6% (100 of 180)</title></circle>
-<circle cx="395.4" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
-<circle cx="418.2" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
-<circle cx="441" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
-<circle cx="463.9" cy="236.7" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Precon commanders: 73.3% (132 of 180)</title></circle>
-<circle cx="486.7" cy="229.6" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Precon commanders: 77.2% (139 of 180)</title></circle>
-<circle cx="509.5" cy="219.4" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Precon commanders: 82.8% (149 of 180)</title></circle>
-<circle cx="532.3" cy="214.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Precon commanders: 85.6% (154 of 180)</title></circle>
-<circle cx="555.1" cy="204.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Precon commanders: 91.1% (164 of 180)</title></circle>
-<circle cx="577.9" cy="204.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Precon commanders: 91.1% (164 of 180)</title></circle>
-<circle cx="600.7" cy="201.1" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Precon commanders: 92.8% (167 of 180)</title></circle>
-<circle cx="623.6" cy="193.1" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Precon commanders: 97.2% (175 of 180)</title></circle>
-<circle cx="646.4" cy="192" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Precon commanders: 97.8% (176 of 180)</title></circle>
-<circle cx="669.2" cy="190" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Precon commanders: 98.9% (178 of 180)</title></circle>
-<circle cx="692" cy="190" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Precon commanders: 98.9% (178 of 180)</title></circle>
+<circle cx="98" cy="298.6" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R35 · 2026-10-18 — Precon commanders: 39.4% (71 of 180)</title></circle>
+<circle cx="120" cy="297.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R37 · 2026-10-18 — Precon commanders: 40.0% (72 of 180)</title></circle>
+<circle cx="142" cy="295.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R38 · 2026-10-18 — Precon commanders: 41.1% (74 of 180)</title></circle>
+<circle cx="164" cy="295.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R42 · 2026-10-22 — Precon commanders: 41.1% (74 of 180)</title></circle>
+<circle cx="186" cy="290.4" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R46 · 2026-10-24 — Precon commanders: 43.9% (79 of 180)</title></circle>
+<circle cx="208" cy="289.5" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R49 · 2026-10-24 — Precon commanders: 44.4% (80 of 180)</title></circle>
+<circle cx="230" cy="287.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R57 · 2026-10-24 — Precon commanders: 45.6% (82 of 180)</title></circle>
+<circle cx="252" cy="285.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59 · 2026-10-24 — Precon commanders: 46.7% (84 of 180)</title></circle>
+<circle cx="274" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59b · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
+<circle cx="296" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59c · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
+<circle cx="318" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59d · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
+<circle cx="340" cy="271.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59e · 2026-10-24 — Precon commanders: 54.4% (98 of 180)</title></circle>
+<circle cx="362" cy="269" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59f · 2026-10-24 — Precon commanders: 55.6% (100 of 180)</title></circle>
+<circle cx="384" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59g · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
+<circle cx="406" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59h · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
+<circle cx="428" cy="259.9" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59i · 2026-10-25 — Precon commanders: 60.6% (109 of 180)</title></circle>
+<circle cx="450" cy="236.7" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59j · 2026-10-25 — Precon commanders: 73.3% (132 of 180)</title></circle>
+<circle cx="472" cy="229.6" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59k · 2026-10-25 — Precon commanders: 77.2% (139 of 180)</title></circle>
+<circle cx="494" cy="219.4" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59l · 2026-10-25 — Precon commanders: 82.8% (149 of 180)</title></circle>
+<circle cx="516" cy="214.3" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59m · 2026-10-25 — Precon commanders: 85.6% (154 of 180)</title></circle>
+<circle cx="538" cy="204.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59n · 2026-10-26 — Precon commanders: 91.1% (164 of 180)</title></circle>
+<circle cx="560" cy="204.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59o · 2026-10-26 — Precon commanders: 91.1% (164 of 180)</title></circle>
+<circle cx="582" cy="201.1" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59p · 2026-10-26 — Precon commanders: 92.8% (167 of 180)</title></circle>
+<circle cx="604" cy="193.1" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59q · 2026-10-26 — Precon commanders: 97.2% (175 of 180)</title></circle>
+<circle cx="626" cy="192" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59r · 2026-10-26 — Precon commanders: 97.8% (176 of 180)</title></circle>
+<circle cx="648" cy="190" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59s · 2026-10-26 — Precon commanders: 98.9% (178 of 180)</title></circle>
+<circle cx="670" cy="190" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59u · 2026-10-27 — Precon commanders: 98.9% (178 of 180)</title></circle>
+<circle cx="692" cy="190" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>T0.R59v · 2026-10-27 — Precon commanders: 98.9% (178 of 180)</title></circle>
 <text x="704" y="194.5" font-size="13" fill="#f0efec" font-weight="600">98.9%</text>
-<text x="704" y="210.5" font-size="13" fill="#f0efec" font-weight="600">90.6%</text>
-<text x="704" y="228.1" font-size="13" fill="#f0efec" font-weight="600">80.5%</text>
+<text x="704" y="210.5" font-size="13" fill="#f0efec" font-weight="600">91.0%</text>
+<text x="704" y="226.6" font-size="13" fill="#f0efec" font-weight="600">81.3%</text>
 <text x="32" y="402" font-size="12" fill="#a3a29b">Fully automated: every Oracle line of the card runs in the rules engine. Anything else is shown in game as a manual step.</text>
 </svg>
