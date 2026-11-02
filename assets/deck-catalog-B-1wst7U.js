@@ -1,4 +1,4 @@
-const n="2026-10-08",e=[{id:"FederationFleet_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Captain Janeway, Endgame.",name:"Federation Fleet",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Jean-Luc Picard, Luminary",colors:["R","U","W"],image:"https://cards.scryfall.io/normal/front/9/0/901eaed9-dbea-4a31-87b0-e17e9bcabfed.jpg"}],colors:["W","U","R"],text:`Commander
+const n="2026-10-08",e=[{id:"FederationFleet_TRC",supplement:"star-trek-commander",note:"Jeskai historic and Spacecraft: Jean-Luc Picard draws a card whenever a big artifact, legend or Saga joins the fleet, and every second draw each turn grows a crew member and charges a starship.",name:"Federation Fleet",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Jean-Luc Picard, Luminary",colors:["R","U","W"],image:"https://cards.scryfall.io/normal/front/9/0/901eaed9-dbea-4a31-87b0-e17e9bcabfed.jpg"}],colors:["W","U","R"],text:`Commander
 1 Jean-Luc Picard, Luminary (TRC) 3
 
 Deck
@@ -90,7 +90,7 @@ Deck
 1 Terramorphic Expanse (TRC) 571
 5 Island (TRK) 319
 4 Plains (TRK) 317
-4 Mountain (TRK) 323`},{id:"KlingonFury_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Kor, Cause of Vengeance.",name:"Klingon Fury",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Worf, Defiant Commander",colors:["B","R","W"],image:"https://cards.scryfall.io/normal/front/d/a/da030114-a4ee-46d7-a6fd-6c0d8e779bcf.jpg"}],colors:["W","B","R"],text:`Commander
+4 Mountain (TRK) 323`},{id:"KlingonFury_TRC",supplement:"star-trek-commander",note:"Mardu Klingon Warriors: attack every opponent so Worf's Battlefront exiles more cards to play, backed by hasty Warrior tokens.",name:"Klingon Fury",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Worf, Defiant Commander",colors:["B","R","W"],image:"https://cards.scryfall.io/normal/front/d/a/da030114-a4ee-46d7-a6fd-6c0d8e779bcf.jpg"}],colors:["W","B","R"],text:`Commander
 1 Worf, Defiant Commander (TRC) 4
 
 Deck
@@ -180,7 +180,7 @@ Deck
 1 Terramorphic Expanse (TRC) 571
 5 Mountain (TRK) 323
 5 Plains (TRK) 317
-5 Swamp (TRK) 321`},{id:"LandingParty_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Captain Kirk, Boldly Going.",name:"Landing Party",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Commander Spock",colors:["G","U","W"],image:"https://cards.scryfall.io/normal/front/c/f/cf114392-a38d-4117-aa41-911d6dc1051b.jpg"}],colors:["W","U","G"],text:`Commander
+5 Swamp (TRK) 321`},{id:"LandingParty_TRC",supplement:"star-trek-commander",note:"Bant lands and exploration: play differently named lands so Commander Spock's Strange new worlds can cast the top card of your library for free.",name:"Landing Party",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Commander Spock",colors:["G","U","W"],image:"https://cards.scryfall.io/normal/front/c/f/cf114392-a38d-4117-aa41-911d6dc1051b.jpg"}],colors:["W","U","G"],text:`Commander
 1 Commander Spock (TRC) 2
 
 Deck
@@ -277,7 +277,7 @@ Deck
 1 Tranquil Landscape (TRC) 573
 4 Forest (TRK) 325
 2 Plains (TRK) 317
-2 Island (TRK) 319`},{id:"WeAreTheBorg_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Locutus of Borg.",name:"We Are the Borg",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"The Borg Queen",colors:["B","U","W"],image:"https://cards.scryfall.io/normal/front/8/e/8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab.jpg"}],colors:["W","U","B"],text:`Commander
+2 Island (TRK) 319`},{id:"WeAreTheBorg_TRC",supplement:"star-trek-commander",note:"Esper artifact creatures: The Borg Queen pumps your artifact creatures and assimilates creatures straight from your opponents' libraries.",name:"We Are the Borg",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"The Borg Queen",colors:["B","U","W"],image:"https://cards.scryfall.io/normal/front/8/e/8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab.jpg"}],colors:["W","U","B"],text:`Commander
 1 The Borg Queen (TRC) 1
 
 Deck
