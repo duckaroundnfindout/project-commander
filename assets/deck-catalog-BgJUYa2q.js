@@ -1,4 +1,376 @@
-const n="2026-10-08",e=[{id:"CallingAllAngels_FDC",name:"Calling All Angels",code:"FDC",setName:"Foundations Commander",releaseDate:"2026-10-02",source:"https://magic.wizards.com/en/news/announcements/foundations-commander-decklists",commanders:[{name:"Giada, Font of Hope",colors:["W"],image:"https://cards.scryfall.io/normal/front/4/e/4ebc7622-08a1-4f43-92dd-8675d395e8f6.jpg"}],colors:["W"],text:`Commander
+const n="2026-10-08",e=[{id:"FederationFleet_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Captain Janeway, Endgame.",name:"Federation Fleet",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Jean-Luc Picard, Luminary",colors:["R","U","W"],image:"https://cards.scryfall.io/normal/front/9/0/901eaed9-dbea-4a31-87b0-e17e9bcabfed.jpg"}],colors:["W","U","R"],text:`Commander
+1 Jean-Luc Picard, Luminary (TRC) 3
+
+Deck
+1 Captain Janeway, Endgame (TRC) 84
+1 Ambassador K'Ehleyr (TRC) 9
+1 Beverly Crusher, Ship's Doctor (TRC) 11
+1 Dr. Pulaski, Cynical Clinician (TRC) 13
+1 Ensign Harry Kim, Operations (TRC) 15
+1 Ezri Dax, Newly Joined (TRC) 16
+1 Guinan, Ancient Advisor (TRC) 17
+1 Julian Bashir, Frontier Doctor (TRC) 21
+1 Spot, Felis catus (TRC) 29
+1 U.S.S. Enterprise-E, Sovereign (TRC) 34
+1 Chief Miles O'Brien (TRC) 37
+1 Data, Exploring Humanity (TRC) 40
+1 Geordi La Forge, Innovator (TRC) 42
+1 Kes, Evolving Telepath (TRC) 45
+1 On the Shoulders of Giants (TRC) 47
+1 Seven of Nine, Tertiary Adjunct (TRC) 50
+1 Temporal Tribulation (TRC) 51
+1 Tuvok, Chief Tactical Officer (TRC) 53
+1 Ro Laren, Double Agent (TRC) 75
+1 Rom and Leeta, Unlikely Pair (TRC) 76
+1 B'Elanna Torres, Scrapper (TRC) 82
+1 Cmdr. Troi, Outgoing Empath (TRC) 89
+1 Commander William Riker (TRC) 91
+1 Reg Barclay, Fidgety Fantasist (TRC) 102
+1 Tom Paris, Risk-Taker (TRC) 105
+1 Unification (TRC) 107
+1 Vic Fontaine, One Night Only (TRC) 108
+1 Worf, Son of Mogh (TRC) 109
+1 U.S.S. Defiant, Tough Little Ship (TRC) 125
+1 U.S.S. Enterprise-C, Time-Tossed (TRC) 126
+1 U.S.S. Prometheus, Prototype (TRC) 128
+1 U.S.S. Stargazer, Here and There (TRC) 129
+1 Grand Crescendo (TRC) 423
+1 Loran of the Third Path (TRC) 424
+1 Promise of Loyalty (TRC) 426
+1 Cryptic Command (TRC) 435
+1 Chain Reaction (TRC) 450
+1 Fevered Visions (TRC) 474
+1 Fractured Identity (TRC) 475
+1 Supreme Verdict (TRC) 480
+1 Alhammarret's Archive (TRC) 484
+1 Howling Mine (TRC) 494
+1 Battlefield Forge (TRC) 514
+1 Clifftop Retreat (TRC) 518
+1 Coastal Peak (TRC) 519
+1 Command Beacon (TRC) 520
+1 Desolate Lighthouse (TRC) 523
+1 Exotic Orchard (TRC) 528
+1 Fabled Passage (TRC) 529
+1 Frostboil Snarl (TRC) 533
+1 Furycalm Snarl (TRC) 534
+1 Glacial Fortress (TRC) 535
+1 Glittering Massif (TRC) 536
+1 Irrigated Farmland (TRC) 538
+1 Port Town (TRC) 547
+1 Prairie Stream (TRC) 548
+1 Radiant Summit (TRC) 549
+1 Scorched Geyser (TRC) 554
+1 Sulfur Falls (TRC) 563
+1 Training Center (TRC) 572
+1 Malfunctioning Holodeck (TRK) 22
+1 Chronomantic Escape (TRC) 419
+1 Swords to Plowshares (TRC) 429
+1 Frantic Search (TRC) 438
+1 Negate (TRC) 439
+1 Pongify (TRC) 441
+1 Abrade (TRC) 449
+1 Thrill of Possibility (TRC) 455
+1 Faithful Mending (TRC) 473
+1 Arcane Signet (TRC) 485
+1 Commander's Sphere (TRC) 487
+1 Hedron Archive (TRC) 492
+1 Mind Stone (TRC) 497
+1 Sol Ring (TRC) 499
+1 Stonespeaker Crystal (TRC) 500
+1 Talisman of Conviction (TRC) 503
+1 Talisman of Creativity (TRC) 504
+1 Talisman of Progress (TRC) 508
+1 Thought Vessel (TRC) 509
+1 Command Tower (TRC) 521
+1 Evolving Wilds (TRC) 527
+1 Mystic Monastery (TRC) 543
+1 Path of Ancestry (TRC) 545
+1 Perilous Landscape (TRC) 546
+1 Reliquary Tower (TRC) 551
+1 Terramorphic Expanse (TRC) 571
+5 Island (TRK) 319
+4 Plains (TRK) 317
+4 Mountain (TRK) 323`},{id:"KlingonFury_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Kor, Cause of Vengeance.",name:"Klingon Fury",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Worf, Defiant Commander",colors:["B","R","W"],image:"https://cards.scryfall.io/normal/front/d/a/da030114-a4ee-46d7-a6fd-6c0d8e779bcf.jpg"}],colors:["W","B","R"],text:`Commander
+1 Worf, Defiant Commander (TRC) 4
+
+Deck
+1 Kor, Cause of Vengeance (TRC) 96
+1 Ambassador K'Ehleyr (TRC) 9
+1 Imperial Hullbreachers (TRC) 18
+1 Indelicate Healer (TRC) 19
+1 Korok, Liberated Rage (TRC) 22
+1 Martok, Hero of the Empire (TRC) 23
+1 Merciful Mandate (TRC) 25
+1 Right of Vengeance (TRC) 27
+1 Blood-Sport Champion (TRC) 58
+1 Kurn, Son of Mogh (TRC) 60
+1 The Promise of Kahless (TRC) 61
+1 Voq, Torchbearer (TRC) 63
+1 The Beacon of Kahless (TRC) 64
+1 Ferocious Colonist (TRC) 65
+1 Gagh Slinger (TRC) 66
+1 Galvanizing Tenor (TRC) 67
+1 Glory to the Empire! (TRC) 68
+1 Gnarling Targ (TRC) 69
+1 Grilka, Widowed Warrior (TRC) 70
+1 Kang, Suspicious Captain (TRC) 71
+1 Koloth, Tribble Hunter (TRC) 72
+1 Own the Day (TRC) 73
+1 Qo'noS Quartermaster (TRC) 74
+1 Alexander, Ship's Fool (TRC) 81
+1 Chancellor Gorkon (TRC) 86
+1 Curzon Dax, Bound by Blood (TRC) 92
+1 Rite of Ascension (TRC) 103
+1 Sins of the Father (TRC) 104
+1 I.K.S. Negh'Var, Imperial Flagship (TRC) 113
+1 K't'inga-Class Battle Cruiser (TRC) 115
+1 K'Vort-Class Raider (TRC) 116
+1 The Sword of Kahless (TRC) 123
+1 Concerted Effort (TRC) 420
+1 Duelist's Heritage (TRC) 422
+1 Vanquish the Horde (TRC) 432
+1 Painful Truths (TRC) 447
+1 Combat Celebrant (TRC) 451
+1 Disrupt Decorum (TRC) 452
+1 Professional Face-Breaker (TRC) 453
+1 Shared Animosity (TRC) 454
+1 World at War (TRC) 456
+1 Pest Control (TRC) 477
+1 Ruinous Ultimatum (TRC) 479
+1 Vindicate (TRC) 482
+1 Warleader's Call (TRC) 483
+1 Sword of Light and Shadow (TRC) 502
+1 Battlefield Forge (TRC) 514
+1 Canyon Slough (TRC) 516
+1 Clifftop Retreat (TRC) 518
+1 Dragonskull Summit (TRC) 524
+1 Eclipsed Steppe (TRC) 526
+1 Exotic Orchard (TRC) 528
+1 Foreboding Ruins (TRC) 531
+1 Furycalm Snarl (TRC) 534
+1 Glittering Massif (TRC) 536
+1 Isolated Chapel (TRC) 539
+1 Radiant Summit (TRC) 549
+1 Shineshadow Snarl (TRC) 558
+1 Smoldering Marsh (TRC) 560
+1 Temple of Malice (TRC) 567
+1 Umbral Expanse (TRC) 574
+1 Vault of Champions (TRC) 576
+1 Cha'DIch Investigator (TRK) 97
+1 Path to Exile (TRC) 425
+1 Return to Dust (TRC) 427
+1 Valorous Stance (TRC) 431
+1 Night's Whisper (TRC) 446
+1 Rite of Oblivion (TRC) 478
+1 Terminate (TRC) 481
+1 Arcane Signet (TRC) 485
+1 Herald's Horn (TRC) 493
+1 Lightning Greaves (TRC) 496
+1 Mind Stone (TRC) 497
+1 Sol Ring (TRC) 499
+1 Talisman of Conviction (TRC) 503
+1 Talisman of Hierarchy (TRC) 506
+1 Talisman of Indulgence (TRC) 507
+1 Command Tower (TRC) 521
+1 Evolving Wilds (TRC) 527
+1 Nomad Outpost (TRC) 544
+1 Path of Ancestry (TRC) 545
+1 Rogue's Passage (TRC) 552
+1 Shattered Landscape (TRC) 557
+1 Terramorphic Expanse (TRC) 571
+5 Mountain (TRK) 323
+5 Plains (TRK) 317
+5 Swamp (TRK) 321`},{id:"LandingParty_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Captain Kirk, Boldly Going.",name:"Landing Party",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"Commander Spock",colors:["G","U","W"],image:"https://cards.scryfall.io/normal/front/c/f/cf114392-a38d-4117-aa41-911d6dc1051b.jpg"}],colors:["W","U","G"],text:`Commander
+1 Commander Spock (TRC) 2
+
+Deck
+1 Captain Kirk, Boldly Going (TRC) 85
+1 Balance of Terror (TRC) 10
+1 Merciful Mandate (TRC) 25
+1 M'Ress, Crew Coordinator (TRC) 26
+1 Shuttlecraft Galileo (TRC) 28
+1 Tribble Cluster (TRC) 32
+1 Colossal Clone Master (TRC) 38
+1 Fleet Captain Christopher Pike (TRC) 41
+1 Giant Space Amoeba (TRC) 43
+1 Lieutenant Nyota Uhura (TRC) 46
+1 Sam Kirk, Xenoanthropologist (TRC) 49
+1 Temporal Tribulation (TRC) 51
+1 Amanda Grayson, Logic's Link (TRC) 77
+1 Christine Chapel, Combat Medic (TRC) 78
+1 Janice Rand, Essential Aide (TRC) 79
+1 Lieutenant Hikaru Sulu (TRC) 80
+1 Chief Kyle, Transporter Tech (TRC) 87
+1 Chief Montgomery Scott (TRC) 88
+1 Lt. Arex, Ever-Adapting (TRC) 98
+1 McCoy, Not a Bricklayer (TRC) 99
+1 Pavel Chekov, First Posting (TRC) 101
+1 T'Pring, Never Parted (TRC) 106
+1 Command Chair (TRC) 111
+1 The Guardian of Forever (TRC) 112
+1 Jefferies Tube (TRC) 114
+1 Planet Killer (TRC) 117
+1 S.S. Botany Bay (TRC) 120
+1 Starfleet Communicator (TRC) 121
+1 Starship Enterprise (TRC) 122
+1 U.S.S. Defiant, Mirror Migrant (TRC) 124
+1 U.S.S. Farragut, Bold Explorer (TRC) 127
+1 Shore Leave Planet (TRC) 130
+1 Austere Command (TRC) 418
+1 Sun Titan (TRC) 428
+1 Wrath of God (TRC) 433
+1 Echo of Eons (TRC) 437
+1 Ancient Greenwarden (TRC) 457
+1 Augur of Autumn (TRC) 458
+1 Exploration (TRC) 461
+1 Guardian Project (TRC) 463
+1 Heroic Intervention (TRC) 465
+1 Lotus Cobra (TRC) 466
+1 Scute Swarm (TRC) 470
+1 Tireless Tracker (TRC) 471
+1 Canopy Vista (TRC) 515
+1 Exotic Orchard (TRC) 528
+1 Fabled Passage (TRC) 529
+1 Fortified Village (TRC) 532
+1 Glacial Fortress (TRC) 535
+1 Hinterland Harbor (TRC) 537
+1 Irrigated Farmland (TRC) 538
+1 Mosswort Bridge (TRC) 541
+1 Mutavault (TRC) 542
+1 Port Town (TRC) 547
+1 Prairie Stream (TRC) 548
+1 Rain-Slicked Copse (TRC) 550
+1 Scattered Groves (TRC) 553
+1 Sea of Clouds (TRC) 555
+1 Sodden Verdure (TRC) 561
+1 Sunpetal Grove (TRC) 565
+1 Temple of Enlightenment (TRC) 566
+1 Temple of Mystery (TRC) 568
+1 Temple of Plenty (TRC) 569
+1 Vineglimmer Snarl (TRC) 577
+1 Cold-Blooded Crew (TRK) 189
+1 Syndicate Liquidators (TRK) 218
+1 Earth, Sector 001 (TRK) 281
+1 Risa (TRK) 293
+1 Vulcan (TRK) 305
+1 Path to Exile (TRC) 425
+1 Brainstorm (TRC) 434
+1 Ponder (TRC) 440
+1 Reality Shift (TRC) 442
+1 Beast Within (TRC) 459
+1 Cultivate (TRC) 460
+1 Farseek (TRC) 462
+1 Harmonize (TRC) 464
+1 Nature's Lore (TRC) 467
+1 Rampant Growth (TRC) 468
+1 Satyr Wayfinder (TRC) 469
+1 Growth Spiral (TRC) 476
+1 Arcane Signet (TRC) 485
+1 Sol Ring (TRC) 499
+1 Command Tower (TRC) 521
+1 Evolving Wilds (TRC) 527
+1 Path of Ancestry (TRC) 545
+1 Reliquary Tower (TRC) 551
+1 Seaside Citadel (TRC) 556
+1 Temple of the False God (TRC) 570
+1 Terramorphic Expanse (TRC) 571
+1 Tranquil Landscape (TRC) 573
+4 Forest (TRK) 325
+2 Plains (TRK) 317
+2 Island (TRK) 319`},{id:"WeAreTheBorg_TRC",supplement:"star-trek-commander",note:"Decklist from Wizards' announcement (not in MTGJSON yet). The deck's alternate commander is Locutus of Borg.",name:"We Are the Borg",code:"TRC",setName:"Star Trek Commander",releaseDate:"2026-11-13",source:"https://magic.wizards.com/en/news/announcements/star-trek-commander-decklists",commanders:[{name:"The Borg Queen",colors:["B","U","W"],image:"https://cards.scryfall.io/normal/front/8/e/8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab.jpg"}],colors:["W","U","B"],text:`Commander
+1 The Borg Queen (TRC) 1
+
+Deck
+1 Locutus of Borg (TRC) 97
+1 Borg Incursion (TRC) 12
+1 Emergency Regeneration (TRC) 14
+1 Join the Collective (TRC) 20
+1 Korok, Liberated Rage (TRC) 22
+1 Maturation Chamber (TRC) 24
+1 Stratagem Emulator (TRC) 30
+1 Supplementation Node (TRC) 31
+1 Type-03 Borg Vessel (TRC) 33
+1 Ambulatory Reactor (TRC) 35
+1 Borg Scout Sphere (TRC) 36
+1 Co-Option Adjutant (TRC) 39
+1 Gift of Perfection (TRC) 44
+1 Optimization Annex (TRC) 48
+1 Seven of Nine, Tertiary Adjunct (TRC) 50
+1 Transwarp Hub (TRC) 52
+1 Võx, Child of the Collective (TRC) 54
+1 Assimilate the Wounded (TRC) 55
+1 Assimilation Assessor (TRC) 56
+1 Battle of Wolf 359 (TRC) 57
+1 Extraction Integrant (TRC) 59
+1 Reclamation Specialist (TRC) 62
+1 The Best of Both Worlds (TRC) 83
+1 Collective Override (TRC) 90
+1 Deliver from Chaos (TRC) 93
+1 Hugh, First of Many (TRC) 94
+1 Jurati, Cordial Queen (TRC) 95
+1 One, Borg Evolved (TRC) 100
+1 Class-4 Tactical Cube (TRC) 110
+1 Queen's Diamond (TRC) 118
+1 Reconnaissance Partition (TRC) 119
+1 Shore Leave Planet (TRC) 130
+1 Tempered Steel (TRC) 430
+1 Disallow (TRC) 436
+1 Toxic Deluge (TRC) 448
+1 Anguished Unmaking (TRC) 472
+1 Astral Cornucopia (TRC) 486
+1 Darksteel Plate (TRC) 488
+1 Door of Destinies (TRC) 489
+1 Forsaken Monument (TRC) 491
+1 The Immortal Sun (TRC) 495
+1 Skullclamp (TRC) 498
+1 Unwinding Clock (TRC) 510
+1 Academy Ruins (TRC) 512
+1 Choked Estuary (TRC) 517
+1 Drowned Catacomb (TRC) 525
+1 Eclipsed Steppe (TRC) 526
+1 Exotic Orchard (TRC) 528
+1 Fetid Pools (TRC) 530
+1 Glacial Fortress (TRC) 535
+1 Irrigated Farmland (TRC) 538
+1 Isolated Chapel (TRC) 539
+1 Morphic Pool (TRC) 540
+1 Port Town (TRC) 547
+1 Prairie Stream (TRC) 548
+1 Shineshadow Snarl (TRC) 558
+1 Skycloud Expanse (TRC) 559
+1 Spire of Industry (TRC) 562
+1 Sunken Hollow (TRC) 564
+1 Umbral Expanse (TRC) 574
+1 Underground River (TRC) 575
+1 Command Subadjunct (TRK) 9
+1 Conquest Mission (TRK) 10
+1 Hive Mind Coprocessor (TRK) 115
+1 Locutus, the One Who Speaks (TRK) 245
+1 Dispatch (TRC) 421
+1 Return to Dust (TRC) 427
+1 Thirst for Knowledge (TRC) 443
+1 Thoughtcast (TRC) 444
+1 Bitter Triumph (TRC) 445
+1 Arcane Signet (TRC) 485
+1 Commander's Sphere (TRC) 487
+1 Everflowing Chalice (TRC) 490
+1 Sol Ring (TRC) 499
+1 Stonespeaker Crystal (TRC) 500
+1 Swiftfoot Boots (TRC) 501
+1 Talisman of Dominance (TRC) 505
+1 Talisman of Hierarchy (TRC) 506
+1 Talisman of Progress (TRC) 508
+1 Wayfarer's Bauble (TRC) 511
+1 Arcane Sanctum (TRC) 513
+1 Command Tower (TRC) 521
+1 Contaminated Landscape (TRC) 522
+1 Evolving Wilds (TRC) 527
+1 Path of Ancestry (TRC) 545
+1 Rogue's Passage (TRC) 552
+1 Terramorphic Expanse (TRC) 571
+4 Plains (TRK) 317
+4 Island (TRK) 319
+4 Swamp (TRK) 321`},{id:"CallingAllAngels_FDC",name:"Calling All Angels",code:"FDC",setName:"Foundations Commander",releaseDate:"2026-10-02",source:"https://magic.wizards.com/en/news/announcements/foundations-commander-decklists",commanders:[{name:"Giada, Font of Hope",colors:["W"],image:"https://cards.scryfall.io/normal/front/4/e/4ebc7622-08a1-4f43-92dd-8675d395e8f6.jpg"}],colors:["W"],text:`Commander
 1 Giada, Font of Hope (FDC) 4
 
 Deck
