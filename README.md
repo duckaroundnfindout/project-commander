@@ -3,7 +3,7 @@
 A free Magic: The Gathering Commander table that runs entirely in your browser: play against AI opponents or with friends
 (peer-to-peer, no accounts), build and import decks, and open packs in the Vault.
 
-**Play now:** https://duckaroundnfindout.github.io/project-commander/
+**Play now:** https://projectcommander.online/
 
 This repository only holds the built website (published with GitHub Pages). It is generated from the source project
 with `npm run build:pages`; don't edit these files by hand.
